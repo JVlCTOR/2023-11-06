@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-container{
+    height: auto;
+    width: 380px;
+    padding: 20px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.input-text{
+    padding: 5px 4px;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+#btn-send{
+    height: 32px;
+    padding: 0 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    color: white;
+    border-radius: 8px;
+}
+.btns{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+li{
+    width: 250px;
+    display: flex;
+    gap: 6px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+#btn-edit{
+    height: 25px;
+    background-color: yellow;
+    color: black;
+    font-size: 15px;
+}
+#btn-delete{
+    height: 25px;
+    background-color: red;
+    color: black;
+    font-size: 15px;
+
+}
